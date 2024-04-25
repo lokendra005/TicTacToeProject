@@ -1,4 +1,6 @@
 package dev.loki.tictactoe.models;
 
-public class CellState {
+public enum CellState {
+    EMPTY,
+    FILLED,
 }
